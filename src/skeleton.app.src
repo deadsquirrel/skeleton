@@ -1,0 +1,17 @@
+{application, skeleton,
+  [{description,  "my skeleton application"},
+   {id,           "identifier one bla bla"},
+   {vsn,          "0.0.1"},
+   {modules,      [
+                   skeleton,
+                   skeleton_app,
+                   skeleton_sup
+                  ]},
+   {registered,   [skeleton_name]},
+   {included_applications, []},
+   {applications, []},
+   {env,          []},
+   {mod,          {skeleton_app, []}}
+  ]}.
+
+
